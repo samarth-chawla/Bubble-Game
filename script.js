@@ -47,8 +47,9 @@ document.querySelector(".game").addEventListener("click",(e)=>{
             makeBubble()
             // game()
         }
-    }else{
-    document.querySelector(".game").innerHTML = `<h1> Your Score = ${score}</h1>`
+        else{
+            document.querySelector(".game").innerHTML = `<h1> Your Score = ${score}</h1>`
+            }
     }
 })
     
